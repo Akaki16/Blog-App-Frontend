@@ -1,0 +1,64 @@
+.blog-form {
+    transform: translateY(20px);
+    width: 600px;
+    padding: 15px;
+    background: rgb(241, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.blog-form .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.blog-form .form-group label {
+    font-size: 19px;
+    color: #333;
+    position: relative;
+    bottom: 6px;
+}
+
+.blog-form .form-group input {
+    padding: 10px;
+    font-size: 19px;
+    border: 2px solid rgb(73, 94, 163);
+    border-radius: 4px;
+    outline: none;
+    transition: 0.4s;
+}
+
+.blog-form .form-group input:hover {
+    border: 2.5px solid rgb(88, 97, 126);
+}
+
+.blog-form .form-group textarea {
+    padding: 10px;
+    font-size: 19px;
+    height: 150px;
+    outline: none;
+    border: 2px solid rgb(73, 94, 163);
+    border-radius: 4px;
+}
+
+.blog-form .form-group textarea:hover {
+    border: 2.5px solid rgb(88, 97, 126);
+}
+
+.blog-form .form-group button {
+    height: 45px;
+    cursor: pointer;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    background: rgb(37, 44, 66);
+    border-radius: 4px;
+    color: #fff;
+    transition: 0.3s;  
+}
+
+.blog-form .form-group button:hover {
+    background: rgb(47, 52, 68);
+}

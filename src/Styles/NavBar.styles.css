@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background: #333;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .navbar-brand {
+    margin: 10px;
+    color: gold;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: gold;
+}
+
+.navbar-links ul {
+    display: flex;
+}
+
+.navbar-links li {
+    margin: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+}
