@@ -19,7 +19,9 @@ Vanilla CSS was used to style the application
 
 This application provides all of the crud operations
 
-You are able to CREATE, READ, UPDATE and DELETE blogs.
+You are able to CREATE, READ, UPDATE and DELETE blogs
+
+Also you can filter blogs by specifying a search query
 
 ### Run it on your local machine
 
